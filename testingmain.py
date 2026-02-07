@@ -1,5 +1,6 @@
 # main.py
-def greet():
+def greet() -> None:
+    """Prints a greeting message to the console."""
     print("Hello from my local machine!")
 
 if __name__ == "__main__":
